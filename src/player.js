@@ -282,6 +282,6 @@ export function DisconnectPlayer(name)
         return;
 
     console.log("Player disconnected: ", name);
-    //PLAYERS.delete(name);
-    //DeleteObject(player);
+    PLAYERS.delete(name);
+    DeleteObject(player);
 }
